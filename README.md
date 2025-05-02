@@ -1,7 +1,7 @@
 
-# 🌤️ SkyCast
+# 🌤️ AirspaceCast
 
-SkyCast is a sleek and responsive weather app built with **React + Vite**. It allows users to search for real-time weather conditions and a 5-day forecast for any city in the world.
+AirspaceCast is a sleek and responsive weather app built with **React + Vite**. It allows users to search for real-time weather conditions and a 5-day forecast for any city in the world.
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ SkyCast is a sleek and responsive weather app built with **React + Vite**. It al
 
 ## 🖼️ Preview
 
-![SkyCast Screenshot](./screenshot.png)
+![AirspaceCast Screenshot](./screenshot.png)
 
 ## 🛠️ Tech Stack
 
@@ -28,8 +28,8 @@ SkyCast is a sleek and responsive weather app built with **React + Vite**. It al
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/skycast.git
-cd skycast
+git clone https://github.com/your-username/AirspaceCast.git
+cd AirspaceCast
 npm install
 ```
 
@@ -44,7 +44,7 @@ Visit: [http://localhost:5173](http://localhost:5173)
 ## 📁 Folder Structure
 
 ```
-skycast/
+AirspaceCast/
 ├── public/
 │   └── LOGO.png
 ├── src/
