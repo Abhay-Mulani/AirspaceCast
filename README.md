@@ -1,12 +1,85 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌤️ SkyCast
 
-Currently, two official plugins are available:
+SkyCast is a sleek and responsive weather app built with **React + Vite**. It allows users to search for real-time weather conditions and a 5-day forecast for any city in the world.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 City-based weather search
+- 📍 Location-based weather fetching
+- 🌡️ Current temperature, condition, and more
+- 📅 5-day forecast with daily icons
+- 🌓 Dark/Light mode toggle
+- 📱 Fully responsive for all screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Preview
+
+![SkyCast Screenshot](./screenshot.png)
+
+## 🛠️ Tech Stack
+
+- ⚛️ React
+- ⚡ Vite
+- 🌐 OpenWeatherMap API
+- 🎨 Tailwind CSS
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/skycast.git
+cd skycast
+npm install
+```
+
+## 🧪 Run Locally
+
+```bash
+npm run dev
+```
+
+Visit: [http://localhost:5173](http://localhost:5173)
+
+## 📁 Folder Structure
+
+```
+skycast/
+├── public/
+│   └── LOGO.png
+├── src/
+│   ├── api/
+│   │   └── weather.js
+│   ├── components/
+│   │   ├── SearchBar.jsx
+│   │   ├── WeatherCard.jsx
+│   │   └── ForecastCard.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🔐 API Key
+
+You'll need an API key from [OpenWeatherMap](https://openweathermap.org/api). Add it to your `.env` file:
+
+```
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+
+## 📌 TODOs
+
+- [ ] Add hourly forecast
+- [ ] Add weather animations
+- [ ] PWA support (Add to home screen)
+
+## 📄 License
+
+MIT License
+
+---
+
+Made with ❤️ by [Your Name]
